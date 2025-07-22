@@ -4973,11 +4973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
+      "projectUniqueName": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
       "projectName": "MoviesHub",
-      "projectPath": "C:\\Projects\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
+      "projectPath": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
       "packagesPath": "C:\\Users\\Dia.Patel\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\MoviesHub\\MoviesHub\\obj\\",
+      "outputPath": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

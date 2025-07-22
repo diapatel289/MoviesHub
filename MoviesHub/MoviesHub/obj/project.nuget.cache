@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CnREmTL2/do=",
+  "dgSpecHash": "MrtU6IrwKUc=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
+  "projectFilePath": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\MoviesHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dia.Patel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Dia.Patel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
