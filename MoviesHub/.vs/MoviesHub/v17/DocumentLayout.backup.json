@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\migrations\\20250721122526_imageandscimage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\migrations\\20250721122526_imageandscimage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\requestdto\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\models\\requestdto\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\apiresponse\\movieresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\models\\apiresponse\\movieresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\controllers\\metadatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\controllers\\metadatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\requestdto\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\models\\requestdto\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\repositories\\additemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\requestdto\\additemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\models\\requestdto\\additemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\yearmovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\models\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|solutionrelative:movieshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7395F870-57D2-40F0-AF2A-080F7765FB1B}|MoviesHub\\MoviesHub.csproj|c:\\headless site\\movieshub\\movieshub\\movieshub\\models\\requestdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -127,18 +127,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250721122526_imageandscimage2.cs",
-              "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Migrations\\20250721122526_imageandscimage2.cs",
-              "RelativeDocumentMoniker": "MoviesHub\\Migrations\\20250721122526_imageandscimage2.cs",
-              "ToolTip": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Migrations\\20250721122526_imageandscimage2.cs",
-              "RelativeToolTip": "MoviesHub\\Migrations\\20250721122526_imageandscimage2.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "MovieResponseDto.cs",
+              "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\ApiResponse\\MovieResponseDto.cs",
+              "RelativeDocumentMoniker": "MoviesHub\\Models\\ApiResponse\\MovieResponseDto.cs",
+              "ToolTip": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\ApiResponse\\MovieResponseDto.cs",
+              "RelativeToolTip": "MoviesHub\\Models\\ApiResponse\\MovieResponseDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T12:25:26.42Z"
+              "WhenOpened": "2025-07-22T09:28:39.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CreateMovieDto.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\RequestDto\\CreateMovieDto.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Models\\RequestDto\\CreateMovieDto.cs",
@@ -150,19 +151,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Repositories\\MovieRepository.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Repositories\\MovieRepository.cs",
               "ToolTip": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Repositories\\MovieRepository.cs",
               "RelativeToolTip": "MoviesHub\\Repositories\\MovieRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAD8AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAH0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:09:21.504Z"
+              "WhenOpened": "2025-07-21T07:09:21.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MetaDataController.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Controllers\\MetaDataController.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Controllers\\MetaDataController.cs",
@@ -170,11 +172,12 @@
               "RelativeToolTip": "MoviesHub\\Controllers\\MetaDataController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T10:22:47.486Z"
+              "WhenOpened": "2025-07-02T10:22:47.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AddItemRepository.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Repositories\\AddItemRepository.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Repositories\\AddItemRepository.cs",
@@ -186,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AddItemDto.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\RequestDto\\AddItemDto.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Models\\RequestDto\\AddItemDto.cs",
@@ -198,19 +201,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Controllers\\MovieController.cs",
               "RelativeToolTip": "MoviesHub\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA6wCoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:03:22.026Z"
+              "WhenOpened": "2025-07-02T06:03:22.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "YearMovie.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\YearMovie.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Models\\YearMovie.cs",
@@ -222,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CatAndYearRepository.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Repositories\\CatAndYearRepository.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Repositories\\CatAndYearRepository.cs",
@@ -234,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\RequestDto\\LoginDto.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Models\\RequestDto\\LoginDto.cs",
@@ -246,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Services\\JwtHelper.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Services\\JwtHelper.cs",
@@ -258,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Models\\ApiResponse\\ApiResponse.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Models\\ApiResponse\\ApiResponse.cs",
@@ -270,19 +274,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Controllers\\AuthController.cs",
               "RelativeToolTip": "MoviesHub\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T10:10:56.241Z"
+              "WhenOpened": "2025-07-01T10:10:56.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\HeadLess Site\\moviesHub\\MoviesHub\\MoviesHub\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "MoviesHub\\Repositories\\UserRepository.cs",

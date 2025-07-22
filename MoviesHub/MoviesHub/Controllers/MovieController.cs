@@ -11,10 +11,10 @@ namespace MoviesHub.Controllers
         public class MovieDataController : ControllerBase
         {
 
-                private readonly MovieRepository movierepository;
+             private readonly MovieRepository movierepository;
 
                 
-                private readonly CatAndYearRepository catAndYearRepository;
+             private readonly CatAndYearRepository catAndYearRepository;
 
             public MovieDataController(CatAndYearRepository movieRepository,MovieRepository movie)
             {
@@ -34,8 +34,8 @@ namespace MoviesHub.Controllers
                 });
             }
 
-        [HttpPost("addmovie")]
-        public async Task<IActionResult> AddMovie([FromForm] CreateMovieDto dto)
+            [HttpPost("addmovie")]
+            public async Task<IActionResult> AddMovie([FromForm] CreateMovieDto dto)
         {
             
 
@@ -45,6 +45,13 @@ namespace MoviesHub.Controllers
             // 3. Return HTTP response
             return Ok(new { message = "Movie added successfully", movieId = addedMovie.Id });
         }
-    }
+
+            [HttpGet("paginated")]
+            public async Task<IActionResult> GetPaginatedMovies([FromQuery] int page = 0, [FromQuery] int size = 10)
+            {
+            var (movies, totalCount) = await movierepository.GetPaginatedMoviesWithCount(page, size);
+            return Ok(new { totalCount, movies });
+        }
+        }
     
 }

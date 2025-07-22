@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MoviesHub.Models;
+using MoviesHub.Models.ApiResponse;
 using MoviesHub.Models.RequestDto;
 using MoviesHub.Services;
 
@@ -91,6 +92,51 @@ namespace MoviesHub.Repositories
 
             return movie;
 
+        }
+
+        public async Task<(List<MovieResponseDto> Movies, int TotalCount)> GetPaginatedMoviesWithCount(int page, int size)
+        {
+            var totalCount = await _contextDb.movie.CountAsync();
+
+            var movie= await _contextDb.movie
+                .Include(m => m.Categories)
+                .Include(m => m.Qualities)
+                .Include(m => m.Audios)
+                .Include(m => m.Year)
+                .Include(m => m.castCrew)
+                .OrderByDescending(m => m.Id) // optional: newest first
+                .Skip(page * size)
+                .Take(size)
+                .Select(m => new MovieResponseDto
+                {
+                    Id = m.Id,
+                    Name = m.Name,
+                    Summary = m.Summary,
+                    Format = m.Format,
+                    Tagline = m.Tagline,
+                    IMDbRating = m.IMDbRating,
+                    Runtime = m.Runtime,
+                    OriginalLanguage = m.OriginalLanguage,
+                    Genres = m.Genres,
+                    DownLoadLink = m.DownLoadLink,
+                    Categories = m.Categories.Select(c => c.Name).ToList(),
+                    Qualities = m.Qualities.Select(q => q.QualityName).ToList(),
+                    Audios = m.Audios.Select(a => a.Language).ToList(),
+                    Years = m.Year.Select(y => y.Year.ToString()).ToList(),
+                    PosterImageBase64 = m.Image != null ? $"data:image/jpeg;base64,{Convert.ToBase64String(m.Image)}" : null,
+                    ScreenshotBase64s = m.screenshots
+                                            .Where(s => s.ScImage != null)
+                                            .Select(s => $"data:image/jpeg;base64,{Convert.ToBase64String(s.ScImage)}")
+                                            .ToList(),
+                    CastCrews = m.castCrew.Select(c => new CastCrewDTO
+                    {
+                        Name = c.Name,
+                        Role = c.Role
+                    }).ToList()
+                })
+                .ToListAsync();
+
+            return (movie, totalCount);
         }
     }
 }

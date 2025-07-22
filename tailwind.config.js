@@ -1,3 +1,4 @@
+// tailwind.config.js
 module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx}',
@@ -6,7 +7,16 @@ module.exports = {
   theme: {
     extend: {
       padding: {
-        '12.5': '60px', // Now you can use className="px-12.5"
+        '12.5': '60px', // Custom padding: px-12.5
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 20s linear infinite',
       },
     },
     container: {

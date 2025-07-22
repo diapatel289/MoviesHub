@@ -78,11 +78,11 @@ const Header = (props: HeaderProps): JSX.Element => {
   }, []);
 
   return (
-    <header className="bg-white shadow-md w-2xl">
+    <header className="bg-[#000000] shadow-md w-2xl pt-4 pb-4 text-white 2xl:pl-32 2xl:pr-32">
       <div className="w-auto flex items-center justify-between px-12.5">
         {/* Logo */}
         <Link field={props.fields.HomeLink} className='flex items-center '>
-          <img src={props.fields.Logo?.value?.src} alt="Logo" className="size-24 w-24" />
+          {/* <img src={props.fields.Logo?.value?.src} alt="Logo" className="size-24 w-24" /> */}
           <p className='text-2xl font-semibold'>MoviesHub</p>
         </Link>
 
@@ -90,14 +90,14 @@ const Header = (props: HeaderProps): JSX.Element => {
         <nav className="flex items-center gap-8">
           <Link
             field={props.fields.HomeLink}
-            className="text-gray-700 hover:text-indigo-600 font-medium"
+            className="text-blcak text-xl  font-medium"
           >
             <Text field={props.fields.Home} />
           </Link>
 
           <Link
             field={props.fields.AboutLink}
-            className="text-gray-700 hover:text-indigo-600 font-medium"
+            className="text-blcak text-xl  font-medium"
           >
             <Text field={props.fields.About} />
           </Link>
@@ -108,12 +108,12 @@ const Header = (props: HeaderProps): JSX.Element => {
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
           >
-            <div className="cursor-pointer text-gray-700 font-medium">
+            <div className="cursor-pointer text-blcak text-xl font-medium">
               <Text field={props.fields.Category} />
             </div>
 
             {open && (
-              <div className="absolute left-0 top-full bg-white border rounded-md shadow-lg z-50 flex flex-col min-w-[10rem]">
+              <div className="absolute left-0 top-full bg-rose-400 border rounded-md shadow-lg z-50 flex flex-col min-w-[10rem]">
                 {categories.map((category) => (
                   <a
                     key={category.id}
@@ -133,12 +133,12 @@ const Header = (props: HeaderProps): JSX.Element => {
             onMouseEnter={() => setYearOpen(true)}
             onMouseLeave={() => setYearOpen(false)}
           >
-            <div className="cursor-pointer text-gray-700 font-medium hover:text-indigo-600">
+            <div className="cursor-pointer text-blcak text-xl font-medium ">
               <Text field={props.fields.Year} />
             </div>
 
             {yearOpen && (
-              <div className="absolute left-0 top-full bg-white border rounded-md shadow-lg z-50 flex flex-col min-w-[8rem]">
+              <div className="absolute left-0 top-full bg-rose-400 border rounded-md shadow-lg z-50 flex flex-col min-w-[8rem]">
                 {years.map((year) => (
                   <a
                     key={year.id}
@@ -156,14 +156,14 @@ const Header = (props: HeaderProps): JSX.Element => {
             onMouseEnter={() => setAddOpen(true)}
             onMouseLeave={() => setAddOpen(false)}
           >
-            <div className="cursor-pointer text-gray-700 font-medium hover:text-indigo-600">
+            <div className="cursor-pointer text-blcak text-xl font-medium ">
               Add
             </div>
 
             {addOpen && (
-              <div className="absolute left-0 top-full bg-white border rounded-md shadow-lg z-50 flex flex-col min-w-[10rem]">
+              <div className="absolute left-0 top-full bg-rose-400 border rounded-md shadow-lg z-50 flex flex-col min-w-[10rem]">
                 {addOptions.map((option, i) => {
-                  const route = `/movies/${option.toLowerCase().replace(/\s+/g, '-')}`;
+                  const route = `/${option.toLowerCase().replace(/\s+/g, '-')}`;
                   return (
                     <a
                       key={i}
@@ -185,7 +185,7 @@ const Header = (props: HeaderProps): JSX.Element => {
               logout(); // Clear token from context
               router.push('/login'); // Redirect to login
             }}
-            className="text-gray-700 hover:text-red-600 font-medium"
+            className="text-blcak text-xl hover:text-red-600 font-medium"
           >
             Logout
           </button>
