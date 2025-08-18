@@ -20,8 +20,8 @@ Before running the project, make sure you have:
 
 Clone the repository
 
-* git clone https://github.com/your-username/movieshub.git
-* cd movieshub
+* git clone https://github.com/diapatel289/MoviesHub.git
+*  cd movieshub
 
 **2. Database Setup**
 
