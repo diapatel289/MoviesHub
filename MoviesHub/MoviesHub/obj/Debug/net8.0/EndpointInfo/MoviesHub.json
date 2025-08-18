@@ -257,6 +257,9 @@
                   "DownLoadLink": {
                     "type": "string"
                   },
+                  "OTT": {
+                    "type": "string"
+                  },
                   "Year": {
                     "type": "array",
                     "items": {
@@ -334,6 +337,9 @@
                 "DownLoadLink": {
                   "style": "form"
                 },
+                "OTT": {
+                  "style": "form"
+                },
                 "Year": {
                   "style": "form"
                 },
@@ -388,6 +394,54 @@
               "type": "integer",
               "format": "int32",
               "default": 10
+            }
+          },
+          {
+            "name": "categoryName",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/movie/{id}": {
+      "get": {
+        "tags": [
+          "MovieData"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

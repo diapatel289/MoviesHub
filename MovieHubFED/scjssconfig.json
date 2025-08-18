@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\jsstrainingsc.dev.local",
+    "apiKey": "{DD2F7425-8F34-472D-A3E9-B18DED8F6BB0}",
+    "deploySecret": "DD2F74258F34472DA3E9B18DED8F6BB0",
+    "deployUrl": "https://jsstrainingsc.dev.local/",
+    "layoutServiceHost": "http://jsstrainingsc.dev.local/"
+  }
+}

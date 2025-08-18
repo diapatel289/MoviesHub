@@ -5,6 +5,7 @@ import config from 'temp/config';
 import Navigation from 'src/Navigation';
 import Scripts from 'src/Scripts';
 
+
 // Prefix public assets with a public URL to enable compatibility with Sitecore editors.
 // If you're not supporting Sitecore editors, you can remove this.
 const publicUrl = config.publicUrl;
@@ -28,8 +29,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
     <>
       <Scripts />
       <Head>
-        <title>{fields.pageTitle?.value?.toString() || 'MoviesHub'}</title>
-        <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+        <title>MoviesHub</title>
+        <link rel="icon" type="image/png" href="/film-slate.ico" />
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
@@ -37,7 +38,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className="">{route && <Placeholder name="jss-main" rendering={route} />}</div>
+      <div className="bg-black">{route && <Placeholder name="jss-main" rendering={route} />}</div>
     </>
   );
 };

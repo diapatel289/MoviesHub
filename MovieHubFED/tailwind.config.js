@@ -14,12 +14,18 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
         },
+        scrollY: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-50%)' },
+        },
       },
       animation: {
         scroll: 'scroll 20s linear infinite',
+        scrollY: 'scrollY 20s linear infinite',
       },
     },
     container: {
+      
       center: true,
       padding: '1rem',
       screens: {

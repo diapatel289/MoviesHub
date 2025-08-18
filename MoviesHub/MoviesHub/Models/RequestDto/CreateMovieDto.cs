@@ -16,6 +16,7 @@ namespace MoviesHub.Models.RequestDto
         public string OriginalLanguage { get; set; }
         public string Genres { get; set; }
         public string DownLoadLink { get; set; }
+        public string OTT {  get; set; }
 
         public List<int> Year { get; set; }
         public List<int> CategoryIds { get; set; }

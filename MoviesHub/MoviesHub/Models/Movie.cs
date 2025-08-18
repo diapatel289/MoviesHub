@@ -14,6 +14,7 @@
         public string OriginalLanguage { get; set; }
         public string Genres {  get; set; }
         public string DownLoadLink { get; set; }
+        public string Ott { get; set; }
 
 
 

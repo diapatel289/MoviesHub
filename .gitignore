@@ -1,54 +1,22 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# Node.js / React
+node_modules/
+.next/
+dist/
+build/
+.env
 
-# dependencies
-/node_modules
+# .NET
+bin/
+obj/
+*.user
+*.vs
+*.suo
+*.dbmdl
+*.jfm
 
-# testing
-/coverage
+# Logs
+*.log
+logs/
 
-# next.js
-/.next*/
-/out/
-
-# graphql code generation
-/.generated
-*.graphql.d.ts
-*.graphqls.d.ts
-
-# misc
+# Others
 .DS_Store
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-*.log*
-
-# sitecore
-scjssconfig.json
-*.deploysecret.config
-
-# vercel
-.vercel
-/MoviesHub/.vs/MoviesHub/FileContentIndex/2060f783-8515-42e5-bdad-1b535367cacd.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/382084ae-04a0-40a1-9d7f-11a50978c282.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/480aed30-6a6b-4dd6-9627-81bde4374ad0.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/57a98114-26c2-408c-8807-8415502b6b73.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/7b6f800b-39cc-49a2-8e46-cd23de860af4.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/94c1c60c-776c-4392-be13-07dac8995bbb.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/9f06596e-12ec-4d7e-afab-68fbc7948373.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/be9dcefd-2851-48c3-aa12-9fa8b23f572c.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/c646855b-e6c5-4658-a573-60177a12ac19.vsidx
-/MoviesHub/.vs/MoviesHub/FileContentIndex/df0b5c49-2cd7-4cad-a228-95277142b74d.vsidx
-/MoviesHub/.vs/MoviesHub/v17/.wsuo
-/MoviesHub/.vs/slnx.sqlite
-/MoviesHub/.vs/MoviesHub/FileContentIndex/74d024a3-6b78-4403-8e75-3ab50fc51e92.vsidx
-/MoviesHub/.vs/MoviesHub/v17/.suo
-/MoviesHub/.vs/MoviesHub/v17/DocumentLayout.json
-tailwind.config.js
-MoviesHub/.vs/MoviesHub/FileContentIndex/5cb29f43-5499-4e20-953d-ba1cea1c7efe.vsidx
-MoviesHub/.vs/MoviesHub/FileContentIndex/7d0032c4-6bca-421c-a278-40df5f81d472.vsidx
-MoviesHub/.vs/MoviesHub/FileContentIndex/947c5b43-07a7-4ff1-8b4a-3372ac50c0bb.vsidx
-MoviesHub/.vs/MoviesHub/FileContentIndex/daa43573-12d0-44d6-9c19-00238a44b5aa.vsidx
-tailwind.config.js
